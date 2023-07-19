@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 
 const Header = () => {
   return (
-    <header className="bg-defaultBackground md:bg-mediumBackground lg:bg-largeBackground bg-cover bg-bottom h-screen absolute top-0 left-0 right-0 text-white">
-      <div className=" relative container mt-10 mx-auto  px-5 md:px-7 flex  justify-between">
-        <div>
+    <header className="bg-defaultBackground md:bg-mediumBackground lg:bg-largeBackground bg-cover bg-bottom h-screen relative -top-10 left-0 right-0  text-white">
+      <div className=" relative container top-20 mx-auto px-5 md:px-7 flex  justify-between">
+        <div className="">
           <img src={logo} alt="" aria-label="logo" />
         </div>
         <div>
@@ -21,7 +21,7 @@ const Header = () => {
           </h1>
         </div>
 
-        <div className="absolute top-56 left-1/2 cursor-pointer">
+        <div className="absolute top-60 md:top-48 left-1/2 cursor-pointer">
           <motion.img
             animate={{ y: [-10, 10] }}
             transition={{

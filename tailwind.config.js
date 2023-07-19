@@ -23,7 +23,10 @@ module.exports = {
         fontBarlow: ['"Barlow"', "sans-serif"],
         fontFraunces: ['"Fraunces"', "serif"],
       },
-
+      fontSize: {
+        defaultFontSize: "1.125rem",
+      
+      },
       backgroundImage: {
         defaultBackground: "url('/src/images/mobile/image-header.jpg')",
         mediumBackground: "url('/src/images/desktop/image-header.jpg')",
