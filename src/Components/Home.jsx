@@ -3,6 +3,7 @@ import Header from "./Header/Header";
 import Showcase from "./Showcases/showcase";
 import Testimonials from "./Testimonials/Tesimonials";
 import Gallery from "./Gallery/Gallery";
+import Footer from "./Footer/Footer";
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Testimonials />
         <Gallery />
       </main>
+      <Footer />
     </div>
   );
 };

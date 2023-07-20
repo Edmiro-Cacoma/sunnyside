@@ -11,7 +11,7 @@ import imageSugarCubesMobile from "../../images/mobile/image-gallery-sugar-cubes
 
 const Gallery = () => {
   return (
-    <section className="relative">
+    <section className="relative ">
       
         <div className="grid grid-cols-2  md:hidden">
           <img src={imageMilkBottles} alt="" className="w-full h-auto" />
