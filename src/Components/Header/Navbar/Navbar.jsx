@@ -46,7 +46,7 @@ const Navbar = () => {
         initial={{ opacity: 0, scale:2 }}
         animate={{ opacity: 1, scale:1 }}
         transition={{ duration: 3}}
-        className={`bg-white mobileNav z-10 w-[23.75rem] h-[19.375rem] relative top-20 right-6 mx-auto mt-0 ${
+        className={`bg-white mobileNav z-10 w-[390px] h-[19.375rem] relative top-20 right-6 mx-auto mt-0 ${
           isMenuOpen ? "block" : "hidden"
           }`}
         
