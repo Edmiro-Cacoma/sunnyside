@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://bit.ly/44EDi5S)
+- Live Site URL: (https://bit.ly/3Y2nB5Z)
 
 ## My process
 
