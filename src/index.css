@@ -1,7 +1,64 @@
-
-
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+
+.standLink,brandLink{
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+ 
+    /* Set the text color */
+
+}
+
+.brandLink::after{
+content: '';
+    position: absolute;
+    top: 22px;
+    /* Adjust the value to control the distance of the border from the link */
+    left: -4px;
+    /* Adjust the value to control the distance of the border from the link */
+    width: 100px;
+    /* Adjust the value to set the total width of the border */
+    height: 2px;
+    /* Adjust the value to set the total height of the border */
+    border: 4px solid hsl(51, 100%, 49%);
+    /* Set the color of the border */
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.standLink::after {
+    content: '';
+    position: absolute;
+    top: 32px;
+    /* Adjust the value to control the distance of the border from the link */
+    left: 15px;
+    /* Adjust the value to control the distance of the border from the link */
+    width: 100px;
+    /* Adjust the value to set the total width of the border */
+    height: 2px;
+    /* Adjust the value to set the total height of the border */
+    border: 4px solid hsl(7, 99%, 70%);
+    /* Set the color of the border */
+    border-radius: 5px;
+    z-index: 1;
+}
+.mobileNav::before{
+
+content: '';
+    position: absolute;
+    top: -24px;
+    right: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 30px 30px;
+    /* Adjust the values to control the size of the triangle */
+    border-color: transparent transparent #fff transparent;
+    /* Set the triangle color */
+
+}

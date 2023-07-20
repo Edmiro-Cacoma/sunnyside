@@ -46,9 +46,10 @@ const Navbar = () => {
         initial={{ opacity: 0, scale:2 }}
         animate={{ opacity: 1, scale:1 }}
         transition={{ duration: 3}}
-        className={`bg-white z-10 w-96 h-96 relative top-12 right-12 mx-auto mt-0 ${
+        className={`bg-white mobileNav z-10 w-[370px] h-[310px] relative top-20 right-6 mx-auto mt-0 ${
           isMenuOpen ? "block" : "hidden"
-        }`}
+          }`}
+        
       >
         <motion.nav
           initial={{ opacity: 0 }}

@@ -15,8 +15,8 @@ const Header = () => {
           <MobileNavbar />
         </div>
 
-        <div className="absolute top-28 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer ">
-          <h1 className="font-fontFraunces font-[700] text-7xl text-center">
+        <div className="absolute top-36 md:top-24 left-1/2 transform -translate-x-1/2 -translate-y-1/2 cursor-pointer ">
+          <h1 className="font-fontFraunces uppercase font-[700] text-6xl text-center">
             We are creatives
           </h1>
         </div>
