@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://bit.ly/44EDi5S)
-- Live Site URL: (https://bit.ly/3Y2nB5Z)
+- Solution URL: (https://www.frontendmentor.io/solutions/sunnyside-agency-landing-page-HeFXVIHjsx)
+- Live Site URL: (https://sunnyside-azure.vercel.app)
 
 ## My process
 
